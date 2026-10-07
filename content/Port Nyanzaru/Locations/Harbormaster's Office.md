@@ -1,6 +1,6 @@
 ---
 marker:
-  - coordinates: 3450, 3363
+  - coordinates: 5175, 4618
     mapName: port-nyanzaru
     icon: lucide-sailboat
     colour: "#28bdbb"

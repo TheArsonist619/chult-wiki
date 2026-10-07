@@ -1,6 +1,6 @@
 ---
 marker:
-  - coordinates: 1814, 1786
+  - coordinates: 2721, 2452
     mapName: port-nyanzaru
     icon: lucide-banknote
     colour: "#04ff00"

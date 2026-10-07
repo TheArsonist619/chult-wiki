@@ -1,6 +1,6 @@
 ---
 marker:
-  - coordinates: 2344, 741
+  - coordinates: 3516, 1017
     mapName: port-nyanzaru
     icon: lucide-church
     colour: "#0091ff"

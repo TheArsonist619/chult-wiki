@@ -1,6 +1,6 @@
 ---
 marker:
-  - coordinates: 2028, 3157
+  - coordinates: 3042, 4335
     mapName: port-nyanzaru
     icon: lucide-heart
     colour: "#49bcb4"

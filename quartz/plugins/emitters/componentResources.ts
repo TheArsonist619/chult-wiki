@@ -11,7 +11,20 @@ import popoverScript from "../../components/scripts/popover.inline"
 // viewRegistry, but @quartz-community/bases-page (still open beta) never actually
 // bundles registered views' `script`/`css` into the build. Same gap fixed for CSS
 // in custom.scss below — see that file's bottom section for the matching note.
-import leafletMapScript from "../../../.quartz/plugins/quartz-leaflet-bases-plugin/src/scripts/leaflet-map.inline"
+//
+// This imports a PATCHED COPY living under quartz/components/scripts/ (a
+// location Quartz owns and tracks normally), not the original file inside
+// .quartz/plugins/.../src/. That directory is gitignored and gets freshly
+// re-cloned from upstream by `npx quartz plugin install` whenever it doesn't
+// look like a valid, already-installed clone (e.g. if its nested .git is
+// missing) — which silently wiped this same patch once already. Patching a
+// stable, Quartz-owned copy instead means it can't get clobbered by the
+// plugin installer again. The three fixes in the patched copy: self-hosted
+// Leaflet/iconify deps (resolved relative to the map's own data-src, so it
+// stays correct under a deployed subpath) instead of CDN-only loading, a
+// double-init-guarded immediate call alongside the nav-event listener (fixes
+// a load-order race on hard page loads), and no other behavior changes.
+import leafletMapScript from "../../components/scripts/leaflet-map-patched.inline"
 import baseStyles from "../../styles/base.scss"
 import customStyles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"

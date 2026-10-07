@@ -1,6 +1,6 @@
 ---
 marker:
-  - coordinates: 3916, 945
+  - coordinates: 5874, 1298
     mapName: port-nyanzaru
     icon: lucide-house
     colour: "#1100ff"

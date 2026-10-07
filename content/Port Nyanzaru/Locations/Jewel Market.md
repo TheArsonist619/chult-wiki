@@ -1,6 +1,6 @@
 ---
 marker:
-  - coordinates: 3671, 1756
+  - coordinates: 5507, 2411
     mapName: port-nyanzaru
     icon: lucide-gem
     colour: "#44ff00"
