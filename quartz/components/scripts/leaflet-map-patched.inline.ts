@@ -591,7 +591,20 @@ async function initialiseMap(
 
     const image = await getImageMeta(dataset.src);
 
-    mapElement.style.aspectRatio = (image.naturalWidth / image.naturalHeight).toString();
+    // The configured `height` (dataset.height, from the base codeblock's
+    // `height:` field) was never actually applied anywhere in this file —
+    // only aspectRatio was set, which derives height from width/aspectRatio
+    // instead. That makes the container's real rendered size depend on the
+    // image's own proportions rather than the configured height, so a very
+    // tall/narrow map image (like ours) renders far taller than intended and
+    // a defaultZoom chosen to fit the *configured* height ends up fitting
+    // a much smaller box than the container actually is — the image then
+    // renders smaller than its container, anchored in one corner with empty
+    // space around it. Setting height directly (matching how the sibling
+    // Obsidian plugin's MapManager.updateCss does it) makes the container's
+    // actual size match what `height:` says, so a defaultZoom computed for
+    // that height is correct.
+    mapElement.style.height = dataset.height + "px";
 
     const bounds: LatLngBoundsExpression = [
         [0, 0],

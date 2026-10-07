@@ -9,12 +9,13 @@ views:
     mapName: port-nyanzaru
     image: Port Nyanzaru Tags.jpg
     height: 600
-    minZoom: -2
+    minZoom: -3.65
     maxZoom: 2
-    defaultZoom: -2
+    defaultZoom: -3.65
     zoomDelta: 0.25
     scale: "1"
     unit: ft
+
 ```
 
 ## Locations
