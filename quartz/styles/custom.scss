@@ -841,3 +841,14 @@ svg.leaflet-image-layer.leaflet-interactive path {
     font-size: 0.85rem;
     color: var(--gray);
 }
+/* A heading placed directly inside .npc-grid (sibling to the card divs, not
+   nested in one) acts as a section divider - e.g. "## Deceased" - spanning
+   the full grid width instead of being squeezed into a single card's column. */
+.npc-grid > h1,
+.npc-grid > h2,
+.npc-grid > h3 {
+    grid-column: 1 / -1;
+    margin: 0.5rem 0 -0.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--lightgray);
+}
