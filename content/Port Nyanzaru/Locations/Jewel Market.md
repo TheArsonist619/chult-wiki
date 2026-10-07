@@ -1,9 +1,10 @@
 ---
 marker:
-  - coordinates: 5507, 2411
-    mapName: port-nyanzaru
+  - colour: "#44ff00"
+    coordinates: 5507, 2411
     icon: lucide-gem
-    colour: "#44ff00"
+    mapName: port-nyanzaru
+    minZoom: -3.39
 ---
 # Jewel Market
 

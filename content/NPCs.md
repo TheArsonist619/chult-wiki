@@ -9,7 +9,7 @@
 
 **Ademar Beylinn**
 
-*Notes coming soon.*
+The captain of The Eastern Eagle. Now Deceased. 
 
 </div>
 <div class="npc-card">
@@ -18,7 +18,7 @@
 
 **Azaka Stormfang**
 
-*Notes coming soon.*
+Guide 
 
 </div>
 <div class="npc-card">

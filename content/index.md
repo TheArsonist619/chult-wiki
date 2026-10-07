@@ -19,3 +19,7 @@ A living record of everything the party has learned, everyone they've met, and e
 
 - [[Handouts/Hex Crawl Handout|Hex Crawl Handout]]
 - [[Handouts/Guide Handouts|Guide Handouts]]
+
+## Items
+
+- [[Items|Items]] — treasure and gear the party has found

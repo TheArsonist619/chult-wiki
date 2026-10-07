@@ -1,9 +1,6 @@
 ---
-marker:
-  - coordinates: 2381, 4120
-    mapName: port-nyanzaru
-    icon: lucide-beer
-    colour: "#ffcf24"
+marker: []
+unlisted: true
 ---
 # Gurt's
 

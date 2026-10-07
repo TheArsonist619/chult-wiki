@@ -1,9 +1,9 @@
 ---
 marker:
-  - coordinates: 4093, 3698
-    mapName: port-nyanzaru
+  - colour: "#000000"
+    coordinates: 4116, 3652
     icon: lucide-circle
-    colour: "#000000"
+    mapName: port-nyanzaru
 ---
 # Statue
 

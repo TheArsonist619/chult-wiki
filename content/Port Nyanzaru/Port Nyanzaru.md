@@ -40,7 +40,6 @@ views:
 - [[Port Nyanzaru/Locations/Fish Market|Fish Market]]
 - [[Port Nyanzaru/Locations/Fort Nyanzaru|Fort Nyanzaru]]
 - [[Port Nyanzaru/Locations/Grand Coliseum|Grand Coliseum]]
-- [[Port Nyanzaru/Locations/Gurt's|Gurt's]]
 - [[Port Nyanzaru/Locations/Hall of Gold|Hall of Gold]]
 - [[Port Nyanzaru/Locations/Kaya's House of Repose|Kaya's House of Repose]]
 - [[Port Nyanzaru/Locations/Public Bathouse|Public Bathouse]]

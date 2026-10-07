@@ -1,9 +1,9 @@
 ---
 marker:
-  - coordinates: 4758, 3213
-    mapName: port-nyanzaru
+  - colour: "#000000"
+    coordinates: 4752, 3264
     icon: lucide-circle
-    colour: "#000000"
+    mapName: port-nyanzaru
 ---
 # Dry Dock
 
