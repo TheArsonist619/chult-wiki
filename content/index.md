@@ -1,6 +1,7 @@
 # Chult Campaign Wiki
 
-A living record of everything the party has learned, everyone they've met, and everywhere they've been in Chult.
+On their first expedition into the Jungles of Chult. Currently at the base of Firefinger and planning an attack on the Pterafolk. Guided by Azaka Stormfang. Will be heading to East to Mezro after that. 
+
 
 ## Port Nyanzaru
 
@@ -8,8 +9,8 @@ A living record of everything the party has learned, everyone they've met, and e
 
 ## People
 
-- [[NPCs|NPCs]] — folks the party has met along the way
-- [[Party|The Party]] — our heroes
+- [[NPCs|NPCs]] 
+- [[Party|The Party]]
 
 ## Groups
 
@@ -22,4 +23,4 @@ A living record of everything the party has learned, everyone they've met, and e
 
 ## Items
 
-- [[Items|Items]] — treasure and gear the party has found
+- [[Items|Items]] 
