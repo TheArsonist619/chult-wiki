@@ -1,3 +1,7 @@
+---
+title: "The Story So Far"
+---
+# The Story So Far
 ## Session 1 - The Easten Eagle
 You all meet on the Eastern Eagle, a ship en route to Port Nyanzaru, on the continent of Chult. After leaving the stormy waters everyone is on the deck when Sahaugin attack. [[Kael]] reveals himself as a stow-away and helps in the fight. Aftwards, [[Harindel Adna]] threatens to apprehend him upon arrival to [Port Nyanzaru]] The next night [[Ademar Beylinn]] is murdered by [[Laurel Magwin]] as she reveals her true Sea Hag form.
 
